@@ -2,6 +2,8 @@ package net.fran.mcmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fran.mcmod.block.ModBlocks;
+import net.fran.mcmod.item.ModItemGroups;
 import net.fran.mcmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +14,8 @@ public class McMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 		ModItems.registerModItems();
+		ModBlocks.registeredModBlocks();
+		ModItemGroups.registeredItemGroup();
 	}
 }

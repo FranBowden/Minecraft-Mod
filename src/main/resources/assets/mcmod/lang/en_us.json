@@ -1,4 +1,7 @@
 {
   "item.mcmod.ruby": "Ruby",
-  "item.mcmod.ruby_ore": "Ruby Ore"
+
+  "block.mcmod.ruby_block": "Block of Ruby",
+
+  "itemgroup.ruby": "Ruby Group"
 }
