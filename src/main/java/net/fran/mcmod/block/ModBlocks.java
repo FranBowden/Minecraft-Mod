@@ -16,7 +16,6 @@ import net.minecraft.registry.Registry;
 public class ModBlocks {
 
     public static final Block RUBY_BLOCK = registerBlock("ruby_block",
-
                     new Block(
                             AbstractBlock.Settings.create()
                                     .mapColor(MapColor.IRON_GRAY)
@@ -26,6 +25,18 @@ public class ModBlocks {
                                     .sounds(BlockSoundGroup.METAL)
                     )
     );
+
+    public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
+            new Block(AbstractBlock.Settings.create()
+
+                    .mapColor(MapColor.IRON_GRAY)
+                    .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
+                    .requiresTool()
+                    .strength(5.0F, 4.0F)
+                    .sounds(BlockSoundGroup.METAL)
+
+            ));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name,block);
         return Registry.register(Registries.BLOCK, Identifier.of(McMod.MOD_ID, name), block);

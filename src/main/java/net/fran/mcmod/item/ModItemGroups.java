@@ -18,8 +18,11 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RUBY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RUBY);
                         entries.add(ModBlocks.RUBY_BLOCK);
-
+                        entries.add(ModBlocks.RAW_RUBY_BLOCK);
                     }).build());
+
+
+
 
     public static void registeredItemGroup() {
         McMod.LOGGER.info("Registering ItemGroup for " + McMod.MOD_ID);

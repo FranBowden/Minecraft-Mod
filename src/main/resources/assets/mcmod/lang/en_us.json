@@ -2,6 +2,6 @@
   "item.mcmod.ruby": "Ruby",
 
   "block.mcmod.ruby_block": "Block of Ruby",
-
+  "block.mcmod.raw_ruby_block": "Block of Raw Ruby",
   "itemgroup.ruby": "Ruby Group"
 }
