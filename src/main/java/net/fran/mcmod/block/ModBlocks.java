@@ -20,8 +20,7 @@ public class ModBlocks {
                             AbstractBlock.Settings.create()
                                     .mapColor(MapColor.IRON_GRAY)
                                     .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
-                                    .requiresTool()
-                                    .strength(5.0F, 6.0F)
+                                    .strength(4.0F, 5.0F)
                                     .sounds(BlockSoundGroup.METAL)
                     )
     );
@@ -32,7 +31,7 @@ public class ModBlocks {
                     .mapColor(MapColor.IRON_GRAY)
                     .instrument(NoteBlockInstrument.IRON_XYLOPHONE)
                     .requiresTool()
-                    .strength(5.0F, 4.0F)
+                    .strength(3.0F, 4.0F)
                     .sounds(BlockSoundGroup.METAL)
 
             ));
